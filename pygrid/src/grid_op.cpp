@@ -2,7 +2,7 @@
 #include <iostream>
 #include <complex>
 #include <vector>
-#include <omp.h>
+// #include <omp.h>
 #include <math.h>
 
 using namespace std;
