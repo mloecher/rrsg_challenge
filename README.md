@@ -12,7 +12,7 @@ The gridding function is written in C, and wrapped with Cython.  It needs to be 
 python setup.py build_ext --inplace
 ```
 
-in the root directory.  This will build the gridding function in the current directory (it will not install anything else outside of this folder).
+in the root directory.  This will build the gridding function in the current directory (it will not install anything else outside of this folder).  A Windows+Python 3.7 binary is already compiled, other compilations on Windows may need the Visual Studio build tools from the middle of [THIS](https://visualstudio.microsoft.com/downloads/) page.  Mac and Linux should work just fine.
 
 ## Usage
 
