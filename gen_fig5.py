@@ -3,7 +3,7 @@ from sense_op import SenseOp
 import matplotlib.pyplot as plt
 import numpy as np
 
-senseop = SenseOp('./data/rawdata_brain_radial_96proj_12ch.h5', use_hamming=True, shift = (0,150))
+senseop = SenseOp('./data/rawdata_brain_radial_96proj_12ch.h5', use_hamming=True)
 senseop.gen_coilmaps()
 
 res = []

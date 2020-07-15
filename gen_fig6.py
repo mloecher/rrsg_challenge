@@ -3,8 +3,7 @@ from sense_op import SenseOp
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-senseop = SenseOp('./data/rawdata_heart_radial_55proj_34ch.h5', use_hamming=True, fov_mod = (1, 1.4), shift=(-180,0))
+senseop = SenseOp('./data/rawdata_heart_radial_55proj_34ch.h5', use_hamming=True)
 senseop.gen_coilmaps()
 
 res = []
